@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+strings page for input validation assignment
+Dylan Mudersbach
+07Aug23
+Dylmuder@uat.edu
+-->
+
+<script src="code.js"></Script>
+<link href="Style2.css" rel="stylesheet" type="text/css">
+<html lang="en">
+
+<head>
+
+     
+    <title>Risk of Rain Page</title>
+</head>
+<header style="text-align: center;">
+    <h1> Welcome to my Risk of Rain Page!</h1>
+    <!--h1 is big and bold, h2 is smaller-->
+    <h2> Made by Dylan Mudersbach because he likes the game risk of rain 2</h2>
+    <br>
+</header>
+<body>
+    <img id="RORPic"  src="ror.jpeg">
+    <br>
+    <br>
+  
+    <br>
+    <form id="ansSubmit" onsubmit="return false">
+        What Game is This image From?: <input type="text" id="ansInput"><br>
+        <br>
+        <input type="submit" onclick="checkAns();" class="button">
+        </form>
+        <br>  <div id="ansStatus" >Answer:</div><br>
+        <br>
+    <h1>Play Sounds</h1>
+    <button onclick="playRain();">Enable Rain</button>
+<button onclick="playrorSong();">Enable ROR song</button>
+<br>
+<br>
+    <br>
+    <br>
+</body>
+
+
+</html>

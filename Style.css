@@ -1,0 +1,37 @@
+body {
+    background-color: cyan;
+    color: blueviolet
+}
+
+nav {
+    height: 570px;
+    width: 200px;
+    float: left;
+    padding: 5 px;
+    line-height: 30px;
+}
+
+footer{
+text-align: center;
+}
+
+#memePic{
+    margin-left: 200px;
+}
+
+#bodyText{
+    margin-right: 200px;
+}
+
+header{
+text-align: center;
+}
+
+table, th, td{
+border: 1px solid black;
+border-radius: 10px;
+}
+
+#funTable{
+    text-align: center;
+}
